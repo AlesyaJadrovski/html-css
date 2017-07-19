@@ -1,0 +1,16 @@
+.caption {
+    height: 200px;
+    width: auto;
+    background-color: #5e20eb;
+}
+
+.brand {
+
+    width: 200px;
+    height: auto;
+    margin-left: 1200px;
+}
+
+.description>li {
+    display: none;
+}
