@@ -14,3 +14,22 @@
 .description>li {
     display: none;
 }
+
+.search {
+    margin-left: 600px;
+}
+
+.list {
+    margin-top: 20px;
+}
+
+.menu {
+    background-color: #5e20eb;
+}
+
+.tab {
+    font-size: 20px;
+    color: whitesmoke;
+    padding-left: 10px;
+    padding-right: 10px;
+}

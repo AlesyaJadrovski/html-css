@@ -1,3 +1,4 @@
+/*
 function openbox1(id){
     display = document.getElementById(id).style.display;
 
@@ -7,7 +8,12 @@ function openbox1(id){
         document.getElementById(id).style.display='none';
     }
 }
+*/
 
-function openbox {
-    $('.description>li').on('click')
-}
+var list = document.find('.list'),
+    service = list.find('.service>li'),
+    description = list.find('.description>li');
+
+    $(service).on('click', function () {
+        description.show();
+        });
