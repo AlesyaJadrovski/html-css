@@ -10,10 +10,12 @@ function openbox1(id){
 }
 */
 
-var list = document.find('.list'),
+var list = $('.list'),
     service = list.find('.service>li'),
-    description = list.find('.description>li');
+    description = list.find('.tab'),
+    indexService = service.index(),
+    indexDescription = description.index();
 
-    $(service).on('click', function () {
-        description.show();
-        });
+    service.on('click', function () {
+       alert('')
+    });
