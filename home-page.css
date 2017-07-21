@@ -13,10 +13,18 @@
 
 .tab{
     display: none;
+    color: black;
 }
 
 .search {
     margin-left: 600px;
+}
+
+.section {
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: whitesmoke;
 }
 
 .list {
@@ -25,11 +33,4 @@
 
 .menu {
     background-color: #5e20eb;
-}
-
-.tab {
-    font-size: 20px;
-    color: whitesmoke;
-    padding-left: 10px;
-    padding-right: 10px;
 }
