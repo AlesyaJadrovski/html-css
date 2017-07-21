@@ -1,14 +1,26 @@
+@font-face {
+    font-family: Indie Flower; /* Гарнитура шрифта */
+    src: url(/fonts/IndieFlower.ttf); /* Путь к файлу со шрифтом */
+}
+
 .caption {
     height: 200px;
     width: auto;
     background-color: #5e20eb;
 }
 
-.brand {
+h1 {
+    font-family: 'Indie Flower';
+}
 
+.brand {
     width: 200px;
     height: auto;
     margin-left: 1200px;
+}
+
+.service {
+    cursor: pointer
 }
 
 .tab{
@@ -31,6 +43,19 @@
     margin-top: 20px;
 }
 
+.price {
+    padding-top: 10px;
+
+}
+
 .menu {
     background-color: #5e20eb;
+}
+
+.right-col {
+    width: 40%;
+}
+
+.service-list {
+    display: none;
 }

@@ -1,10 +1,20 @@
 
 var list = $('.list'),
-    service = list.find('.service>li'),
-    description = list.find('.tab');
-    //indexService = service.index();
+    services = list.find('.services>li'),
+    description = list.find('.tab'),
+    serviceList = list.find('.service-list');
 
-    service.on('click', function () {
+$(function () {
+    services.on('click', function () {
         var currentIndex = $(this).index();
-        description.index(currentIndex).show();
+        $(description[currentIndex]).show();
+        serviceList.show();
+    });
+});
+
+    services.on('click', function () {
+        var currentIndex = $(this).index();
+        if (services[currentIndex] !== description[currentIndex]){
+            description.hide();
+        }
     });
