@@ -16,7 +16,8 @@ h1 {
 .brand {
     width: 200px;
     height: auto;
-    margin-left: 1200px;
+    margin-right: 100px;
+    float: right;
 }
 
 .service {
@@ -60,6 +61,6 @@ h1 {
     display: none;
 }
 
-.section-disc {
+.section-desc {
     display: none;
 }

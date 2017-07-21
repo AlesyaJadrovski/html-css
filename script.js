@@ -5,7 +5,9 @@ var list = $('.list'),
     description = list.find('.tab'),
     serviceList = list.find('.service-list'),
     section = content.find('.section'),
-    sectionDescription = content.find('.section-disc');
+    sectionDescription = content.find('.section-desc'),
+    firstDescription = content.find('first-desc');
+
 
 $(function () {
     services.on('click', function () {
